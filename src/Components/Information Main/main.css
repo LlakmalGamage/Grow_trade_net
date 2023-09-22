@@ -1,0 +1,86 @@
+:root {
+  --PrimaryColor: hsl(199,100%,33%);
+  --SecondaryColor:hsl(187,85%,43%);
+  --gradientColor:linear-gradient(to right,hsl(187,85%,43%),hsl(199,100%,33%));
+  --whiteColor:hsl(0,0%,100%);
+  --blackColor:hsl(201,33%,16%);
+  --textColor:hsl(240,4%,36%);
+  --whiteColorDeam:hsl(0,0%,93%);
+  --greyText:rgb(190,190,190);
+  --inputColor:rgb(239,239,239);
+  --bodyColor:rgb(240,240,246);
+  --cardBG:rgb(225,225,235);
+  --cardHover:rgb(255,255,255);
+  --text:rgb(154, 148, 29);
+}
+
+.main{
+  margin: 4rem 6rem;
+  color: var(--textColor);
+}
+
+img.icon{
+  width: 60px;
+  height: auto;
+}
+
+img.icons{
+  width: 60px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.main h1{
+  font-size: 3rem;
+  color: var(--blackColor);
+}
+
+.main .first-des .des-text{
+  align-items: center;
+  font-size: 15px;
+}
+.main .first-des .des-text .des-title{
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .main{
+    margin: 4rem 2rem;
+  }
+  .first-des{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .first-des-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 4.5rem;
+  }
+
+  .des-text{
+    width: 100%;
+  }
+
+  .image{
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .image img{
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .secContent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .secContent .singleDestination {
+    height: auto;
+  }
+}
+
+
+
