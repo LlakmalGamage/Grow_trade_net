@@ -127,7 +127,7 @@ const Main = () => {
         {
           Data.map(({id,imgSrc,destTitle,location,grade,fees,description})=>{
             return(
-              <div key={id} data-aos='fade-up' className="singleDestination">
+              <div key={id} className="singleDestination">
                 {/*Here it will return single id fron the map array*/}
 
                 <div className="imageDiv">

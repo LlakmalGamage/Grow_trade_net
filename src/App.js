@@ -1,17 +1,26 @@
 import React from "react"
 import './app.css'
-import Navbar from "./Components/Market Navbar/Navbar"
-import Home from "./Components/Market Home/Home"
-import Main from "./Components/Market Main/Main"
-import Footer from "./Components/Footer/Footer"
 
+import NavbarAfterLogin  from "./Components/Navbar After Login/Navbar"
+import NavbarBeforeLogin from "./Components/Navbar Before Login/Navbar"
+import NavbarMarket from "./Components/Market Navbar/Navbar"
+
+import HomeMarket from "./Components/Market Home/Home"
+import HomeInformation from "./Components/Information Home/Home"
+import HomeSupport from "./Components/Support Home/Home"
+
+import MainMarket from "./Components/Market Main/Main"
+import MainInformation from "./Components/Information Main/Main"
+import MainSupport from "./Components/Support Main/Main"
+
+import Footer from "./Components/Footer/Footer"
 
 const App = () => {
     return(
         <>
-        <Navbar/>
-        <Home/>
-        <Main/>
+        <NavbarMarket/>
+        <HomeMarket/>
+        <MainMarket/>
         <Footer/>
         </>
     )
