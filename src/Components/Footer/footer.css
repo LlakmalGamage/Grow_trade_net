@@ -20,6 +20,8 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+  bottom: 0;
+  width: 100%;
 }
 .footer .videoDiv {
   position: absolute;
