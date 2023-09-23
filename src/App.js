@@ -19,7 +19,7 @@ const App = () => {
     return(
         <>
         <NavbarAfterLogin/>
-        <HomeInformation/>
+        <HomeMarket/>
         <MainMarket/>
         <Footer/>
         </>
