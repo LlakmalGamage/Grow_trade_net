@@ -18,8 +18,8 @@ import Footer from "./Components/Footer/Footer"
 const App = () => {
     return(
         <>
-        <NavbarMarket/>
-        <HomeMarket/>
+        <NavbarAfterLogin/>
+        <HomeInformation/>
         <MainMarket/>
         <Footer/>
         </>

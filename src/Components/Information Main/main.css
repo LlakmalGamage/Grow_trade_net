@@ -15,7 +15,6 @@
 }
 
 .main{
-  margin: 4rem 6rem;
   color: var(--textColor);
 }
 
@@ -36,15 +35,15 @@ img.icons{
 }
 
 .main .first-des .des-text{
-  align-items: center;
   font-size: 15px;
+  text-align: center;
 }
 .main .first-des .des-text .des-title{
   font-size: 20px;
   text-align: center;
 }
 
-@media screen and (max-width: 850px) {
+ @media screen and (max-width: 850px) {
   .main{
     margin: 4rem 2rem;
   }
@@ -53,13 +52,6 @@ img.icons{
     flex-direction: column-reverse;
     margin-top: 2.5rem;
   }
-
-  .first-des-reverse{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 4.5rem;
-  }
-
   .des-text{
     width: 100%;
   }
@@ -80,7 +72,7 @@ img.icons{
   .secContent .singleDestination {
     height: auto;
   }
-}
+} 
 
 
 

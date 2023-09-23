@@ -14,7 +14,7 @@
 }
 
 .main {
-  width: 100%;
+  width: 90%;
 }
 .main .secTitle .title {
   position: relative;
@@ -53,19 +53,19 @@
   box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
   transition: 0.3s ease;
 }
-.main .secContent .singleDestination .imageDiv {
+.main .secContent .singleDestination .imageDiv1 {
   height: 180px;
   width: 100%;
   overflow: hidden;
 }
-.main .secContent .singleDestination .imageDiv img {
+.main .secContent .singleDestination .imageDiv1 img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: 2s ease;
 }
-.main .secContent .singleDestination .imageDiv:hover img {
+.main .secContent .singleDestination .imageDiv1:hover img {
   transform: scale(1.1);
 }
 .main .secContent .singleDestination .cardInfo {
