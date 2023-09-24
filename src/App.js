@@ -1,9 +1,9 @@
 //import React from "react"
 import './app.css'
 
-import NavbarAfterLogin  from "./Components/Navbar After Login/Navbar"
+//import NavbarAfterLogin  from "./Components/Navbar After Login/Navbar"
 //import NavbarBeforeLogin from "./Components/Navbar Before Login/Navbar"
-//import NavbarMarket from "./Components/Market Navbar/Navbar"
+import NavbarMarket from "./Components/Market Navbar/Navbar"
 
 import HomeMarket from "./Components/Market Home/Home"
 //import HomeInformation from "./Components/Information Home/Home"
@@ -19,7 +19,7 @@ import Footer from "./Components/Footer/Footer"
 const App = () => {
     return(
         <>
-        <NavbarAfterLogin/>
+        <NavbarMarket/>
         <HomeMarket/>
         <MainMarket/>
         <Footer/>
