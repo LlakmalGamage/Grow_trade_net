@@ -17,16 +17,22 @@ import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
 //import { Navbar } from "react-bootstrap";
 import Navbar from "./Components/Navbar After Login/Navbar"
-//import Footer from "./Components/Footer/Footer"
+import './app.css'
+
 
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
 
   return (    
+    <>
+    <Navbar/>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-      <Navbar/>
         <CssBaseline />
         <div className="app">
           <Sidebar isSidebar={isSidebar} />
@@ -49,6 +55,7 @@ function App() {
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
+    </>
   );
 }
 
