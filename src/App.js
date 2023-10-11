@@ -15,14 +15,18 @@ import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
+//import { Navbar } from "react-bootstrap";
+import Navbar from "./Components/Navbar After Login/Navbar"
+//import Footer from "./Components/Footer/Footer"
 
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
 
-  return (
+  return (    
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
+      <Navbar/>
         <CssBaseline />
         <div className="app">
           <Sidebar isSidebar={isSidebar} />

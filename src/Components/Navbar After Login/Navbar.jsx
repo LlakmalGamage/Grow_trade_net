@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import './navbar.css'
 // import {MdOutlineTravelExplore} from 'react-icons/md'
 import {RiPlantFill} from 'react-icons/ri'

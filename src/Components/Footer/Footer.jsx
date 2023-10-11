@@ -1,4 +1,4 @@
-import React, {useEffect}  from 'react'
+import {useEffect}  from 'react'
 import './footer.css'
 import video2 from "../Audio And Video/video2.mp4"
 
