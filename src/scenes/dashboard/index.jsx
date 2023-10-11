@@ -6,12 +6,12 @@ import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
-import Header from "../../Components/Header";
-import LineChart from "../../Components/LineChart";
-import GeographyChart from "../../Components/GeographyChart";
-import BarChart from "../../Components/BarChart";
-import StatBox from "../../Components/StatBox";
-import ProgressCircle from "../../Components/ProgressCircle";
+import Header from "../../Components/Dashboard/Header";
+import LineChart from "../../Components/Dashboard/LineChart";
+import GeographyChart from "../../Components/Dashboard/GeographyChart";
+import BarChart from "../../Components/Dashboard/BarChart";
+import StatBox from "../../Components/Dashboard/StatBox";
+import ProgressCircle from "../../Components/Dashboard/ProgressCircle";
 
 const Dashboard = () => {
   const theme = useTheme();

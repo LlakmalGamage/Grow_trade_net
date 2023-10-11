@@ -1,6 +1,6 @@
 import { Box, useTheme } from "@mui/material";
-import GeographyChart from "../../Components/GeographyChart";
-import Header from "../../Components/Header";
+import GeographyChart from "../../Components/Dashboard/GeographyChart";
+import Header from "../../Components/Dashboard/Header";
 import { tokens } from "../../theme";
 
 const Geography = () => {
