@@ -31,19 +31,21 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Home</a>
+              <a href='/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Information</a>
+              {/* <CustomLink to='/information' className='navLink'>Information</CustomLink> */}
+              <a href='/information' className='navLink'>Information</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Market</a>
+              {/* <CustomLink to='/market' className='navLink'>Market</CustomLink> */}
+              <a href='/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Weather</a>
+              <a href='/weather' className='navLink'>Weather</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Support</a>
+              <a href='/support' className='navLink'>Support</a>
             </li>
             <li className='navItem'>
               <a href='#link' className='navLink'>Dashboard</a>

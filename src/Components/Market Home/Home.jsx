@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import {useEffect} from 'react'
 import './home.css'
 import video from '../../Components/Audio And Video/market.mp4'
 import {FiFacebook} from 'react-icons/fi'

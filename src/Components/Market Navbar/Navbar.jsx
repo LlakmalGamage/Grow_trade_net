@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import './navbar.css'
 // import {MdOutlineTravelExplore} from 'react-icons/md'
 import {RiPlantFill} from 'react-icons/ri'
@@ -33,22 +33,19 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Home</a>
+              <a href='/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Information</a>
+              <a href='/information' className='navLink'>Information</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Market</a>
+              <a href='/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Weather</a>
+              <a href='/weather' className='navLink'>Weather</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Support</a>
-            </li>
-            <li className='navItem'>
-              <a href='#link' className='navLink'>Dashboard</a>
+              <a href='support' className='navLink'>Support</a>
             </li>
   
             <button className='btn'>

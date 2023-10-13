@@ -1,4 +1,3 @@
-import React, {useEffect}  from 'react'
 import './main.css'
 import crop from '../../Components/Audio And Video/crop.png'
 import community from '../../Components/Audio And Video/community.png'
@@ -19,8 +18,8 @@ import {MdOutlineEdgesensorHigh} from 'react-icons/md'
 import {FcOvertime} from 'react-icons/fc'
 import {FcOnlineSupport} from 'react-icons/fc'
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 //array named data
 
 const Data = [
