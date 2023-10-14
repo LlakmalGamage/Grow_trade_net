@@ -6,6 +6,7 @@ import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
 import {HiOutlineInboxArrowDown} from 'react-icons/hi2'
 import {FcBusinessman} from 'react-icons/fc'
+// import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   const[active,setActive] = useState('navBar')
@@ -47,10 +48,10 @@ const Navbar = () => {
             <li className='navItem'>
               <a href='/support' className='navLink'>Support</a>
             </li>
-            <li className='navItem'>
+            {/* <li className='navItem'>
               <a href='#link' className='navLink'>Dashboard</a>
             </li>
-  
+            */}
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
@@ -82,5 +83,6 @@ const Navbar = () => {
     </section>
   )
 }
+
 
 export default Navbar
