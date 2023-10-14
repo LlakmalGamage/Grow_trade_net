@@ -20,6 +20,7 @@ import './app.css'
 import MarketPage from '../src/Pages/MarketPage/Market'
 import InformationPage from '../src/Pages/InformationPage/Information'
 import SupportPage from '../src/Pages/SupportPage/Support'
+import FarmerHomePage from './Pages/FarmerHomePage/Home'
 
 
 
@@ -30,9 +31,11 @@ function App() {
   return (    
     <>
       <Routes>
+        <Route path='/home' element={<FarmerHomePage/>}/>
         <Route path='/market' element={<MarketPage/>}/>
         <Route path='/information' element={<InformationPage/>}/>
         <Route path='/support' element={<SupportPage/>}/>
+        
       </Routes>
 
 

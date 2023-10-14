@@ -24,7 +24,7 @@ const Navbar = () => {
       <header className='header flex'>
 
         <div className='logoDiv'>
-          <a href='#link' className='logo flex'>
+          <a href='/home' className='logo flex'>
             <h1><RiPlantFill className='icon'/> GROW TRADE NET</h1>
           </a>
         </div>
