@@ -91,9 +91,9 @@ input{
     font-size: 100%;
 }
 
-body{
+/* body{
     background: var(--bodyColor);
-}
+} */
 
 @media screen and (min-width: 1240px) {
     .container{

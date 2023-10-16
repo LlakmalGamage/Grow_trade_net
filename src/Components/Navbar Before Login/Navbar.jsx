@@ -44,9 +44,9 @@ const Navbar = () => {
             <li className='navItem'>
               <a href='#link' className='navLink'>Support</a>
             </li>
-            <li className='navItem'>
+            {/* <li className='navItem'>
               <a href='#link' className='navLink'>Dashboard</a>
-            </li>
+            </li> */}
   
             {/* <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>

@@ -1,0 +1,27 @@
+[
+    {
+      "name": "New Exporter Help",
+      "detail": "Provides guidance and support for individuals or businesses venturing into international trade and export for the first time.",
+      "image": "./exporter7.jpg"
+    },
+    {
+      "name": "Sell Your Products Online",
+      "detail": "Digital platform that empowers businesses and individuals to effortlessly showcase and sell their products on the internet",
+      "image": "./exporter4.jpg"
+    },
+    {
+      "name": "Featured Products",
+      "detail": "Explore these featured products to support your agricultural export endeavors and enhance your farming operations.",
+      "image": "./exporter6.jpg"
+    },
+    {
+      "name": "Market Insight",
+      "detail": "Market insight is an ongoing process that requires continuous monitoring and adaptation to stay competitive and capitalize on opportunities.",
+      "image": "./exporter3.jpg"
+    },
+    {
+      "name": "News and Updates",
+      "detail": "Stay ahead in the export game with the latest updates on international trade agreements, tariffs, and market trends.",
+      "image": "./exporter1.jpg"
+    }
+  ]
