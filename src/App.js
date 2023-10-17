@@ -9,20 +9,17 @@ function App() {
 
   return (    
     <>
-      <Routes>
+      {/* <Routes>
         <Route path='/home' element={<FarmerHomePage/>}/>
         <Route path='/market' element={<MarketPage/>}/>
         <Route path='/information' element={<InformationPage/>}/>
         <Route path='/support' element={<SupportPage/>}/>
         
-      </Routes>
+      </Routes> */}
 
 
 
-    {/* <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -46,7 +43,7 @@ function App() {
           </main>
         </div>
       </ThemeProvider>
-    </ColorModeContext.Provider> */}
+    </ColorModeContext.Provider> 
     </>
   )
 }
