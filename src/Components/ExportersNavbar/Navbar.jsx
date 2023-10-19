@@ -23,7 +23,7 @@ const Navbar = () => {
       <header className='header flex'>
 
         <div className='logoDiv'>
-          <a href='#link' className='logo flex'>
+          <a href='/home' className='logo flex'>
             <h1><RiPlantFill className='icon'/> GROW TRADE NET</h1>
           </a>
         </div>
@@ -31,16 +31,16 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Home</a>
+              <a href='/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>My Listing</a>
+              <a href='/mylist' className='navLink'>My Listing</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>My Account</a>
+              <a href='/myaccount' className='navLink'>My Account</a>
             </li>
             <li className='navItem'>
-              <a href='#link' className='navLink'>Support</a>
+              <a href='/support' className='navLink'>Support</a>
             </li>
   
             <button className='btn'>
