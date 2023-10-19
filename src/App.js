@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'; 
 // import Topbar from "./scenes/global/Topbar";
 // import Sidebar from "./scenes/global/Sidebar";
 // import Dashboard from "./scenes/dashboard";
@@ -24,6 +24,7 @@ import FarmerHomePage from './Pages/FarmerHomePage/Home'
 
 
 
+
 function App() {
   // const [theme, colorMode] = useMode();
   // const [isSidebar, setIsSidebar] = useState(true);
@@ -31,6 +32,8 @@ function App() {
   return (    
     <>
       <Routes>
+        
+        <Route path='/' element={<FarmerHomePage/>}/>
         <Route path='/home' element={<FarmerHomePage/>}/>
         <Route path='/market' element={<MarketPage/>}/>
         <Route path='/information' element={<InformationPage/>}/>
