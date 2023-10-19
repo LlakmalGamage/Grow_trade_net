@@ -4,7 +4,7 @@ import Home from "../../Components/ExportersHome/Home";
 import Residencies from "../../Components/ExportersResidencies/Residencies";
 import '../../app.css'
 
-function App() {
+function ExporterHome() {
     return (
         <div>
           <Navbar/>
@@ -15,4 +15,4 @@ function App() {
       );
     }
   
-  export default App;  
+  export default ExporterHome;  

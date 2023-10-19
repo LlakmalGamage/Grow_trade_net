@@ -17,6 +17,7 @@ import { Routes, Route } from 'react-router-dom';
 // import Calendar from "./scenes/calendar/calendar";
 // import { Navbar } from "react-bootstrap";
 import './app.css'
+
 // import MarketPage from '../src/Pages/MarketPage/Market'
 // import InformationPage from '../src/Pages/InformationPage/Information'
 // import SupportPage from '../src/Pages/SupportPage/Support'
@@ -49,12 +50,13 @@ function App() {
         <Route path='/support' element={<ExportersSupportPage/>}/>
 
         
+
+        
         
       </Routes>
 
 
-
-    {/* <br></br>
+     {/*<br></br>
     <br></br>
     <br></br>
     <br></br>
@@ -81,7 +83,7 @@ function App() {
           </main>
         </div>
       </ThemeProvider>
-    </ColorModeContext.Provider> */}
+    </ColorModeContext.Provider>  */}
     </>
   )
 }

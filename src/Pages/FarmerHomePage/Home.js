@@ -3,7 +3,7 @@ import Footer from "../../Components/Footer/Footer"
 import Home from "../../Components/FarmerHome/Home"
 import '../../app.css'
 
-function Information() {
+function FarmerHome() {
   return (
     <div>
         <Navbar/>
@@ -20,4 +20,4 @@ function Information() {
   )
 }
 
-export default Information
+export default FarmerHome

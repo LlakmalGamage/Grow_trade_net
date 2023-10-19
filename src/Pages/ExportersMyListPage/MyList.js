@@ -4,7 +4,7 @@ import Main from "../../Components/Market Main/Main"
 import Footer from "../../Components/Footer/Footer"
 import '../../app.css'
 
-function Market() {
+function MyList() {
   return (
     <div>
         <Navbar/>
@@ -15,4 +15,4 @@ function Market() {
   )
 }
 
-export default Market
+export default MyList
