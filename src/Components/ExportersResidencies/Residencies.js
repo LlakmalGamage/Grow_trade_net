@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 import {Swiper,SwiperSlide,useSwiper} from 'swiper/react';
 import "swiper/css";
 import './Residencies.css'
-import data from '../../utils/slider.json'
-import { sliderSettings } from '../../utils/common';
+import data from '../../Utils/slider.json'
+import { sliderSettings } from '../../Utils/common';
 
 const Residencies = () => {
   return (

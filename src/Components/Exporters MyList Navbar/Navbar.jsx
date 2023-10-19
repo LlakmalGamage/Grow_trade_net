@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import './navbar.css'
 // import {MdOutlineTravelExplore} from 'react-icons/md'
 import {RiPlantFill} from 'react-icons/ri'
@@ -6,6 +6,7 @@ import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
 import {HiOutlineInboxArrowDown} from 'react-icons/hi2'
 import {FcBusinessman} from 'react-icons/fc'
+import {FaCartArrowDown} from 'react-icons/fa'
 
 const Navbar = () => {
   const[active,setActive] = useState('navBar')
@@ -25,6 +26,7 @@ const Navbar = () => {
         <div className='logoDiv'>
           <a href='/home' className='logo flex'>
             <h1><RiPlantFill className='icon'/> GROW TRADE NET</h1>
+            <h6 className='tag'>Exporter</h6>
           </a>
         </div>
 
@@ -37,18 +39,19 @@ const Navbar = () => {
               <a href='/mylist' className='navLink'>My Listing</a>
             </li>
             <li className='navItem'>
-              <a href='/myaccount' className='navLink'>My Account</a>
-            </li>
-            <li className='navItem'>
               <a href='/support' className='navLink'>Support</a>
             </li>
-  
+
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
 
             <button className='btn'>
             <a href="#link"><FcBusinessman className='icon'/></a>
+            </button> 
+
+            <button className='btn'>
+            <a href="#link"><FaCartArrowDown className='icon'/></a>
             </button> 
 
             {/* <li className='navItem'>

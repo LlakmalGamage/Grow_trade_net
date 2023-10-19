@@ -17,12 +17,14 @@ import { Routes, Route } from 'react-router-dom';
 // import Calendar from "./scenes/calendar/calendar";
 // import { Navbar } from "react-bootstrap";
 import './app.css'
-import MarketPage from '../src/Pages/MarketPage/Market'
-import InformationPage from '../src/Pages/InformationPage/Information'
-import SupportPage from '../src/Pages/SupportPage/Support'
-import FarmerHomePage from './Pages/FarmerHomePage/Home'
+// import MarketPage from '../src/Pages/MarketPage/Market'
+// import InformationPage from '../src/Pages/InformationPage/Information'
+// import SupportPage from '../src/Pages/SupportPage/Support'
+// import FarmerHomePage from './Pages/FarmerHomePage/Home'
 
-
+import ExportersHomePage from './Pages/ExportersHomePage/Home'
+import ExportersMylistPage from './Pages/ExportersMyListPage/MyList'
+import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
 
 
 function App() {
@@ -33,11 +35,16 @@ function App() {
     <>
       <Routes>
         
-        <Route path='/' element={<FarmerHomePage/>}/>
+        {/* <Route path='/' element={<FarmerHomePage/>}/>
         <Route path='/home' element={<FarmerHomePage/>}/>
         <Route path='/market' element={<MarketPage/>}/>
         <Route path='/information' element={<InformationPage/>}/>
-        <Route path='/support' element={<SupportPage/>}/>
+        <Route path='/support' element={<SupportPage/>}/> */}
+
+        <Route path='/' element={<ExportersHomePage/>}/>
+        <Route path='/home' element={<ExportersHomePage/>}/>
+        <Route path='/mylist' element={<ExportersMylistPage/>}/>
+        <Route path='/support' element={<ExportersSupportPage/>}/>
         
       </Routes>
 
