@@ -35,16 +35,20 @@ function App() {
     <>
       <Routes>
         
+        {/* FarmerPage */}
         {/* <Route path='/' element={<FarmerHomePage/>}/>
         <Route path='/home' element={<FarmerHomePage/>}/>
         <Route path='/market' element={<MarketPage/>}/>
         <Route path='/information' element={<InformationPage/>}/>
         <Route path='/support' element={<SupportPage/>}/> */}
 
+        {/* Exporter Page */}
         <Route path='/' element={<ExportersHomePage/>}/>
         <Route path='/home' element={<ExportersHomePage/>}/>
         <Route path='/mylist' element={<ExportersMylistPage/>}/>
         <Route path='/support' element={<ExportersSupportPage/>}/>
+
+        
         
       </Routes>
 
