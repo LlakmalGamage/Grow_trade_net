@@ -1,0 +1,26 @@
+/* navbar.css */
+
+/* Define styles for the navList and navItem elements */
+.navLists {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for the navLink (the anchor tags) */
+  .navLink {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    display: block;
+  }
+  
+  /* Define styles for hover effects or any other styles you need */
+  .navLink:hover {
+    background-color: #f0f0f0;
+  }
+  
