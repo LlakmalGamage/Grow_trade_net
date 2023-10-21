@@ -12,6 +12,7 @@ import img9 from '../../Components/Audio And Video/item3.png'
 
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {HiOutlineClipboardCheck} from 'react-icons/hi'
+import {GrAddCircle} from 'react-icons/gr'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -154,9 +155,16 @@ const Main = () => {
                     <p>{description}</p>
                   </div>
 
-                  <button className='btn flex'>
-                    DETAILS <HiOutlineClipboardCheck className='icon'/>
-                  </button>
+                  <div className="fees flex">
+                    <button className='btn flex'>
+                      DETAILS <HiOutlineClipboardCheck className='icon'/>
+                    </button>
+                    <button className='btn flex'>
+                      <a href='/home'>Home
+                        ADD CART <GrAddCircle className='icon'/>
+                      </a>
+                    </button>
+                  </div>
 
                 </div>
               </div>

@@ -1,0 +1,185 @@
+:root {
+    --PrimaryColor: hsl(199,100%,33%);
+    --SecondaryColor:hsl(187,85%,43%);
+    --gradientColor:linear-gradient(to right,hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(201,33%,16%);
+    --textColor:hsl(240,4%,36%);
+    --whiteColorDeam:hsl(0,0%,93%);
+    --greyText:rgb(190,190,190);
+    --inputColor:rgb(239,239,239);
+    --bodyColor:rgb(240,240,246);
+    --cardBG:rgb(225,225,235);
+    --cardHover:rgb(255,255,255);
+    --text:rgb(154, 148, 29);
+  }
+  
+  .main{
+    margin: 4rem 6rem;
+    color: var(--textColor);
+  }
+  
+  .main h1{
+    font-size: 3rem;
+    color: var(--blackColor);
+  }
+  
+  .second-des{
+    margin: 4rem 6rem;
+    color: var(--blackColor);
+  }
+  
+  .second-des h1{
+    font-size: 3rem;
+  }
+  
+  .image-des{
+    position: relative;
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    overflow: hidden;
+    border-radius: 7px
+  }
+  
+  .first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    color: var(--blackColor);
+    color: var(--textColor);
+  }
+  
+  .main .first-des .des-text .icon{
+      font-size: 50px;
+      color: var(--PrimaryColor);
+      transform: translateY(5px);
+  }
+  
+  .main .first-des .des-text{
+    font-size: 15px;
+  }
+  
+  .first-des-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+  }
+  .main .first-des .textDiv{
+    padding: 2rem 0;
+    font-size: 13px;
+    font-style: italic;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .des-text{
+    width: 90%;
+    text-align: start;
+    font-size: 1.1rem;
+  }
+  
+  .des-text h2{
+    padding-bottom: 2rem;
+  }
+  .main .secTitle .title {
+    position: relative;
+    width: -moz-max-content;
+    width: max-content;
+    color: var(--textColor);
+    margin: 1rem 0;
+    z-index: 2;
+  }
+  
+  .image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+  }
+  
+  .image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+  }
+
+  .image video{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgb(0,0,0,0.19);
+  }
+
+  .image video:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+  }
+  
+  .main .secContent {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .main .secContent .singleDestination .imageDiv{
+    width: 20%;
+  }
+  
+  .main .secContent .singleDestination .cardInfo .destTitle{
+    color: var(--text);
+  }
+  .main .secContent .singleDestination .cardInfo .desc {
+    font-size: 11px;
+    color: var(--textColor);
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 850px) {
+    .main{
+      margin: 4rem 2rem;
+    }
+    .first-des{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 2.5rem;
+    }
+  
+    .first-des-reverse{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 4.5rem;
+    }
+  
+    .des-text{
+      width: 100%;
+    }
+  
+    .image{
+      width: 100%;
+      margin: 1.8rem 0;
+    }
+    .image img{
+      height: 250px;
+    }
+  }
+  
+  @media screen and (min-width: 840px) {
+    .secContent {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .secContent .singleDestination {
+      height: auto;
+    }
+  }
+
+
+  

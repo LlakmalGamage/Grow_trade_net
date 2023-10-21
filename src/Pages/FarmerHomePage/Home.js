@@ -1,6 +1,7 @@
-import Navbar from '../../Components/Navbar After Login/Navbar'
+import Navbar from '../../Components/FarmersAfterLoginNavbar/Navbar'
 import Footer from "../../Components/Footer/Footer"
 import Home from "../../Components/FarmerHome/Home"
+import Main from "../../Components/FarmerMain/main"
 import '../../app.css'
 
 function FarmerHome() {
@@ -8,6 +9,7 @@ function FarmerHome() {
     <div>
         <Navbar/>
         <Home/>
+        <Main/>
         <br/>
         <br/>
         <br/>
