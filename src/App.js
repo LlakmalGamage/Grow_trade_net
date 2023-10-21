@@ -16,7 +16,7 @@ import { Routes, Route } from 'react-router-dom';
 // import { ColorModeContext, useMode } from "./theme";
 // import Calendar from "./scenes/calendar/calendar";
 // import { Navbar } from "react-bootstrap";
-import './app.css'
+import './App.css'
 
 import MarketPage from '../src/Pages/MarketPage/Market'
 import InformationPage from '../src/Pages/InformationPage/Information'

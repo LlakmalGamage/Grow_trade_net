@@ -2,7 +2,7 @@ import Navbar from "../../Components/ExportersAfterLoginNavbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Home from "../../Components/ExportersHome/Home";
 import Residencies from "../../Components/ExportersResidencies/Residencies";
-import '../../app.css'
+import '../../App.css'
 
 function ExporterHome() {
     return (
