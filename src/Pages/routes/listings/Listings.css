@@ -1,0 +1,85 @@
+.listings {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  height: 100vh;
+ 
+  
+}
+
+.listings .banner-image {
+  position: relative;
+  width: 100%;
+  
+}
+
+.listings .banner-image img {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 0;
+  object-fit: cover;
+  
+
+}
+
+.listings .overlay-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem; 
+  font-weight: bold;
+  background:transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.listings .wrapper{
+  display: flex;
+  flex: 1;
+  position: relative;
+  z-index: 1; 
+  width: 95%;
+  max-height: 100%;
+  min-height: 180%;
+  margin: 70px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 166px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 166px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgb(248, 248, 248);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

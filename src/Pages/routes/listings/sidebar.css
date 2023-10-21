@@ -1,0 +1,91 @@
+.sidebar {
+    width: 250px; 
+    background-color: white; 
+    border-left: none;
+    padding: 20px; 
+    max-height: 100%;
+    min-height: 150%;
+    margin-top: -25px; 
+    border-right: 1px solid #ccc;
+    /* overflow-y: auto; */
+    /* left: -250px; /* Hide the sidebar initially */
+  /* transition: left 0.3s; */
+   
+  
+}
+  
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+.sidebar ul li a {
+    text-decoration: none;
+    /* color: #333;  */
+}
+  /* .listings .simplebar-track.simplebar-vertical .simplebar-scrollbar {
+      background-color: #f0f0f0; 
+      width: 10px; 
+    }
+    
+    .listings .simplebar-track.simplebar-horizontal .simplebar-scrollbar {
+      background-color: #f0f0f0; 
+      height: 10px; 
+    }  */
+  
+  
+  
+  
+.sidebar .divider {
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 10px; 
+    width: 200px;
+   
+}
+  
+  
+.sidebar .dashboard-menu .menu_item{
+    background-color: white;
+  }
+  
+.sidebar .dashboard-menu .menu_item_inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background-color: rgb(160, 139, 142); */
+  }
+  
+  
+.sidebar .dashboard-menu .menu-head {
+    color: black; 
+    font-size: 14px; 
+    font-weight: bold; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+   
+  }
+  
+  
+  
+  
+.sidebar .dashboard-menu .menu_item_inner .menu-item_title {
+    font-size: 15px;
+    z-index: 1;
+    position: relative;
+    color: gray;
+  }
+  
+  
+  
+  
+.sidebar .dashboard-menu .icn img {
+    width: 20px; 
+    margin-right: 10px; 
+    filter: grayscale(100%);
+    
+    
+  }
