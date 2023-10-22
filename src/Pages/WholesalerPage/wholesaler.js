@@ -1,5 +1,5 @@
 // import React from "react";
-import '../../app.css';
+import '../../App.css';
 import Navbar from "../../Components/Navbar After Login/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Home from '../../routes/Home/Home';
