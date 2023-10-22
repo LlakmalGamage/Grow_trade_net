@@ -132,4 +132,12 @@ input{
     
 }
 
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background: #a5fcff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }

@@ -1,0 +1,123 @@
+.container {
+   position: relative;
+  display: block;
+  width: 500px;
+  min-height: 100px;
+  max-height: 80vh;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  overflow: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+h2 {
+  padding: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #414141;
+}
+
+input {
+  display: block;
+  height: 30px;
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  &::placeholder {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  &:hover,
+  &:focus,
+  &:active:focus {
+    color: #3bd0d3;
+    outline: none;
+    border-bottom: 1px solid #3bd0d3;
+    &::placeholder {
+      color: #3bd0d3;
+      position: relative;
+      -webkit-transform: translateY(-18px);
+      transform: translateY(-18px);
+    }
+  }
+}
+
+
+.link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 28%;
+  text-transform: uppercase;
+  color: #858585;
+  font-weight: lighter;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 1;
+  font-size: 14px;
+}
+
+
+button.signin {
+  cursor: pointer;
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  margin-top: -10px;
+  border: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #3bd0d3;
+}
+
+button.register {
+  cursor: pointer;
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  margin-top: -10px;
+  border: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #ff7b00;
+}
+
+span {
+  position: absolute;
+  display: block;
+  margin: -10px 20%;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button:hover span {
+  -webkit-transform: translateX(2px);
+  transform: translateX(2px);
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
