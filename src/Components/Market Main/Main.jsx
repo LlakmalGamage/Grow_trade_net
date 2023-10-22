@@ -52,31 +52,31 @@ const Data = [
   {
     id:4,
     imgSrc: img4,
-    destTitle: 'Coriander Seeds',
+    destTitle: 'AGRICULTURAL UREA',
     location: 'Colombo',
     grade: 'Ratings',
-    fees: 'Rs.200',
-    description: 'Germination Percentage - 75% Minimum PurityPercentage - 98% Net Weight - 2g / 80seeds Variety - Coriander'
+    fees: 'Rs.2000/per 1KG',
+    description: 'Urea, also known as carbamide, is an organic compound with chemical formula CO(NH2)2. This amide has two amino groups (NH2) joined by a carbonyl functional group (C(=O)).'
   },
 
   {
     id:5,
     imgSrc: img5,
-    destTitle: 'Capsicum Seeds',
+    destTitle: 'DIAMMONIUM PHOSPHATE (DAP)',
     location: 'Kurunegala',
     grade: 'Ratings',
-    fees: 'Rs.150',
-    description: 'Germination Percentage - 75% Minimum Purity Percentage - 98% Net Weight - 90+ seeds Variety - Hungarian Yellow Wax'
+    fees: 'Rs.1500/per 1Kg',
+    description: 'Ammonium phosphate fertilizers first became available in the 1960s, and DAP rapidly became the most popular in this class of products. Its formulated in a controlled reaction of phosphoric acid with ammonia, where the hot slurry is then cooled, granulated and sieved. '
   },
 
   {
     id:6,
     imgSrc: img6,
-    destTitle: 'Cucumber Seeds',
+    destTitle: 'CALCIUM NITRATE',
     location: 'Polonnaruwa',
     grade: 'Ratings',
-    fees: 'Rs.140',
-    description: 'Verity - F1 Hybrid Shiwa Size - 0.22g'
+    fees: 'Rs.1400/per 1Kg',
+    description: 'Calcium nitrate, also called Norgessalpeter, is an inorganic compound with the formula Ca(NO₃)₂ₓ. The anhydrous compound, which is rarely encountered, absorbs moisture from the air to give the tetrahydrate. Both anhydrous and hydrated forms are colourless salts'
   },
 
   {
