@@ -6,6 +6,7 @@ import MarketPage from '../src/Pages/MarketPage/Market'
 import InformationPage from '../src/Pages/InformationPage/Information'
 import SupportPage from '../src/Pages/SupportPage/Support'
 import FarmerHomePage from './Pages/FarmerHomePage/Home'
+import WeatherPage from './Pages/WeatherPage/weather'
 
 import ExportersHomePage from './Pages/ExportersHomePage/Home'
 import ExportersMylistPage from './Pages/ExportersMyListPage/MyList'
@@ -13,7 +14,7 @@ import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
 
 import MainPage from './Pages/MainPage/main'
 import DashBoardPage from './Pages/AdminDashboard/dashboard'
-import WholesalerPage from './Pages/WholesalerPage/wholesaler'
+// import WholesalerPage from './Pages/WholesalerPage/wholesaler'
 
 
 import Dashboard from "./scenes/dashboard";
@@ -41,6 +42,7 @@ function App() {
           <Route path='/market' element={<MarketPage/>}/>
           <Route path='/information' element={<InformationPage/>}/>
           <Route path='/support' element={<SupportPage/>}/>
+          <Route path='/weather' element={<WeatherPage/>}/>
 
           <Route path='/exporters' element={<ExportersHomePage/>}/>
       
@@ -68,7 +70,7 @@ function App() {
                 <Route path="/Market" element={<MarketPage />} />
 
         {/* Wholesaler Page */} 
-        <Route path='/whole' element={<WholesalerPage/>}/>
+        {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
 
           
           
