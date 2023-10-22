@@ -55,7 +55,7 @@ const Data = [
     destTitle: 'AGRICULTURAL UREA',
     location: 'Colombo',
     grade: 'Ratings',
-    fees: 'Rs.2000/per 1KG',
+    fees: 'Rs.2000/per 1Kg',
     description: 'Urea, also known as carbamide, is an organic compound with chemical formula CO(NH2)2. This amide has two amino groups (NH2) joined by a carbonyl functional group (C(=O)).'
   },
 
@@ -160,7 +160,7 @@ const Main = () => {
                       DETAILS <HiOutlineClipboardCheck className='icon'/>
                     </button>
                     <button className='btn flex'>
-                      <a href='/home'>Home
+                      <a href='/home'>
                         ADD CART <GrAddCircle className='icon'/>
                       </a>
                     </button>
