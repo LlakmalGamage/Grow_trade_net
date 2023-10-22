@@ -17,6 +17,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
 import ArticleIcon from '@mui/icons-material/Article';
+// import Market from "../../Pages/MarketPage/Market"
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -135,14 +136,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Addverticements "
-              to="/team"
+              to="/add"
               icon={<ArticleIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="User Varification"
-              to="/contacts"
+              to="/user"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -164,14 +165,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Profile Form"
-              to="/form"
+              to="/profile"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Market Place"
-              to="/calendar"
+              to="/"
               icon={<BreakfastDiningIcon />}
               selected={selected}
               setSelected={setSelected}   
