@@ -1,0 +1,52 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+ .home-page-container video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+      
+  }
+  
+
+  .welcome-message {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .info-messages {
+    text-align: center;
+  }
+  
+  .info-message {
+    font-size: 18px;
+    color: beige;
+    margin-bottom: 10px;
+  }
+  
+  .info-message {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

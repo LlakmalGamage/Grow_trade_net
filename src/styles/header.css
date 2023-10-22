@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --accent-color: #ff8000;
+  --link-color: #9af8fa;
+  --hover-color: #30b1b8;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.navbar {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: medium;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+  transform: scale(1.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 8px;
+  font-size: medium;
+}
+
+.logout-button {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 0.8rem;
+  border-radius: 15px;
+  cursor: pointer;
+  color: var(--link-color);
+  transition: 0.2s ease;
+  font-size: medium;
+}
+
+.logout-button:hover {
+  background-color: var(--hover-color);
+  padding: 0.6rem;
+  font-size: 16px;
+}
+
+.header:hover {
+  background-color: #080808;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 8px;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .user-info span {
+    font-size: 16px;
+  }
+
+  .logout-button {
+    padding: 0.6rem;
+    font-size: 14px;
+  }
+}
