@@ -2,7 +2,7 @@ import Navbar from '../../Components/Navbar After Login/Navbar'
 import Home from "../../Components/Support Home/Home"
 import Main from "../../Components/Support Main/Main"
 import Footer from "../../Components/Footer/Footer"
-import '../../app.css'
+import '../../App.css'
 
 function Support() {
   return (
