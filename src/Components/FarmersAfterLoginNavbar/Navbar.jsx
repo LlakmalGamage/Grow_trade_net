@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li className='navItem'>
               {/* <CustomLink to='/information' className='navLink'>Information</CustomLink> */}
-              <a href='/information' className='navLink'>Information</a>
+              {/* <a href='/information' className='navLink'>Information</a> */}
             </li>
             <li className='navItem'>
               {/* <CustomLink to='/market' className='navLink'>Market</CustomLink> */}

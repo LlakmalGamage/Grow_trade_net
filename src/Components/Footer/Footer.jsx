@@ -2,7 +2,7 @@ import {useEffect}  from 'react'
 import './footer.css'
 import video2 from "../Audio And Video/video2.mp4"
 
-import {FiChevronRight, FiSend} from 'react-icons/fi'
+import {FiChevronRight} from 'react-icons/fi'
 // import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className='secContent container'>
-        <div className='contactDiv flex'>
+        {/* <div className='contactDiv flex'>
           <div data-aos='fade-up'  className='text'>
             <small>KEEP IN TOUCH</small>
             <h2>CONTACT WITH US</h2>
@@ -36,7 +36,7 @@ const Footer = () => {
               SEND<FiSend className='icon'/>
             </button>
           </div>
-        </div>
+        </div> */}
 
         <div className="footerCard flex">
           <div className='footerIntro flex'>
