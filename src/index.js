@@ -9,10 +9,14 @@ import { StateContextProvider } from './Context/index'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <StateContextProvider>
-  <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
   </StateContextProvider>
+);
+
+root.render(
+  <React.StrictMode> {/* Wrap your entire application with <React.StrictMode> */}
+        <App />
+  </React.StrictMode>
 );

@@ -1,6 +1,6 @@
-import React from 'react';
+//import React from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../context/AuthContex';
+import { useAuth } from '../Context/AuthContex';
 import '../styles/header.css';
 
 const Header = () => {

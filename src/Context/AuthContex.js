@@ -102,14 +102,12 @@ export function AuthProvider({ children }) {
   }, [authTokens, loading, handleRefreshToken]);
 
   const handleLogin = async (username, password) => {
-    try {
+
       const data = await login(username, password);
       setAuthTokens(data);
       setUser(jwt_decode(data.access));
       localStorage.setItem('authTokens', JSON.stringify(data));
-    } catch (error) {
-      throw error;
-    }
+
   };
 
   const handleLogout = () => {
