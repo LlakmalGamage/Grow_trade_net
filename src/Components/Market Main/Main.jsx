@@ -12,7 +12,6 @@ import img9 from '../../Components/Audio And Video/item3.png'
 
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {HiOutlineClipboardCheck} from 'react-icons/hi'
-import {GrAddCircle} from 'react-icons/gr'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -161,7 +160,7 @@ const Main = () => {
                     </button>
                     <button className='btn flex'>
                       <a href='/home'>
-                        ADD CART <GrAddCircle className='icon'/>
+                        ADD CART
                       </a>
                     </button>
                   </div>

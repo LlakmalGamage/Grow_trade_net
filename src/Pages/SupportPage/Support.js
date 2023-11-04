@@ -1,4 +1,4 @@
-import Navbar from '../../Components/Navbar After Login/Navbar'
+import Navbar from '../../Components/FarmersAfterLoginNavbar/Navbar'
 import Home from "../../Components/Support Home/Home"
 import Main from "../../Components/Support Main/Main"
 import Footer from "../../Components/Footer/Footer"

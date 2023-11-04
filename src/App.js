@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 // import './app.css'
 
 import MarketPage from '../src/Pages/MarketPage/Market'
-import SupportPage from '../src/Pages/SupportPage/Support'
+import SupportPage_F from '../src/Pages/SupportPage/Support'
 import FarmerHomePage from './Pages/FarmerHomePage/Home'
 import WeatherPage from './Pages/WeatherPage/weather'
 
@@ -13,7 +13,7 @@ import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
 
 import MainPage from './Pages/MainPage/main'
 import DashBoardPage from './Pages/AdminDashboard/dashboard'
-// import WholesalerPage from './Pages/WholesalerPage/wholesaler'
+import WholesalerPage from './Pages/WholesalerPage/wholesaler'
 
 
 import Dashboard from "./scenes/dashboard";
@@ -39,7 +39,7 @@ function App() {
           <Route path='/' element={<FarmerHomePage/>}/>
           <Route path='/home' element={<FarmerHomePage/>}/>
           <Route path='/market' element={<MarketPage/>}/>
-          <Route path='/support' element={<SupportPage/>}/>
+          <Route path='/support_f' element={<SupportPage_F/>}/>
           <Route path='/weather' element={<WeatherPage/>}/>
 
           <Route path='/exporters' element={<ExportersHomePage/>}/>
@@ -49,7 +49,7 @@ function App() {
           <Route path='/' element={<ExportersHomePage/>}/>
           <Route path='/homeex' element={<ExportersHomePage/>}/>
           <Route path='/mylist' element={<ExportersMylistPage/>}/>
-          <Route path='/supportex' element={<ExportersSupportPage/>}/>
+          <Route path='/support_e' element={<ExportersSupportPage/>}/>
 
         {/* Dashboard Page */} 
         
@@ -67,8 +67,8 @@ function App() {
                 <Route path="/geography" element={<Geography />} />
                 <Route path="/Market" element={<MarketPage />} />
 
-        {/* Wholesaler Page */} 
-        {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
+        {/* Wholesaler Page  */}
+        <Route path='/whole' element={<WholesalerPage/>}/>
 
           
           

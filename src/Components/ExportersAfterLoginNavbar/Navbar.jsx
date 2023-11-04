@@ -22,10 +22,11 @@ const Navbar = () => {
     <section className='navBarSection'>
       <header className='header flex'>
 
-        <div className='logoDiv'>
-          <a href='/homeex' className='logo flex'>
-            <h1><RiPlantFill className='icon'/> GROW TRADE NET</h1>
-            <h6 className='tag'>EXPORTERS</h6>
+      <div className='logoDiv'>
+          <a href='/home' className='logo flex'>
+          <RiPlantFill className='icon'/>
+            <h1 className='logo-heading'> GROW TRADE NET</h1>
+            <h5 className='exporters-heading'>EXPORTERS</h5>
           </a>
         </div>
 
@@ -38,7 +39,7 @@ const Navbar = () => {
               <a href='/mylist' className='navLink'>My Listing</a>
             </li>
             <li className='navItem'>
-              <a href='/supportex' className='navLink'>Support</a>
+              <a href='/support_e' className='navLink'>Support</a>
             </li>
   
             <button className='btn'>

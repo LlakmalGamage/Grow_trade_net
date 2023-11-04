@@ -12,6 +12,17 @@
   --cardBG:rgb(225,225,235);
 }
 
+.farmers-heading {
+  font-size: 10px;
+  color: var(--PrimaryColor);
+  margin-top: 8px;
+
+}
+
+.logo-heading{
+  font-size: 20px;
+}
+
 .header {
   position: fixed;
   display: flex;
@@ -34,6 +45,7 @@
   font-size: 25px;
   color: var(--PrimaryColor);
   transform: translateY(5px);
+  margin-top: -15px;
 }
 @media screen and (max-width: 768px) {
   .header .navBar {

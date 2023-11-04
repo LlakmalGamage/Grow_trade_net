@@ -1,12 +1,11 @@
 // import React from "react";
-import '../../App.css';
-import Navbar from "../../Components/Navbar After Login/Navbar";
+// import '../../App.css';
+import Navbar from "../../Components/WholesalerAfterLoginNavbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Home from '../../routes/Home/Home';
 import Listings from "../../routes/listings/Listings"
 import Market from '../../routes/Market/Market'
-import Information from '../../routes/Information/Information'
-import Support from '../../routes/Support/Support'
+import Support_W from '../../routes/Support/Support'
 import { Routes, Route } from 'react-router-dom'
 import ContentDashboard from "../../routes/listings/contentDashboard/contentDashboard"
 import ContentOrder from "../../routes/listings/contentOrder/contentOrder"
@@ -31,8 +30,7 @@ const App = () => {
                           <Route path="cancellation-requests" element={<CancellationRequests />} />
                         </Route>
                         <Route path="/market" element={<Market />} />
-                        <Route path="/information" element={<Information />} />
-                        <Route path="/support" element={<Support />} />
+                        <Route path="/support_w" element={<Support_W />} />
                         
                         
                     </Routes>

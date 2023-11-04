@@ -4,7 +4,7 @@ import search from '../../assets/icons/search.svg'
 import { useStateContext } from '../../Context'
 import { BackgroundLayout, WeatherCard, MiniCard } from '../../Components/MainWeather'
 import Footer from "../../Components/Footer/Footer"
-import Navbar from "../../Components/Navbar After Login/Navbar"
+import Navbar from "../../Components/FarmersAfterLoginNavbar/Navbar"
 
 function App() {
 

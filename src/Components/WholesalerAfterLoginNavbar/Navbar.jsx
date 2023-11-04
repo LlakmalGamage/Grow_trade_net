@@ -1,12 +1,12 @@
-import {useState} from 'react'
-import './navbar.css'
-// import {MdOutlineTravelExplore} from 'react-icons/md'
-import {RiPlantFill} from 'react-icons/ri'
-import {AiFillCloseCircle} from 'react-icons/ai'
-import {TbGridDots} from 'react-icons/tb'
-import {HiOutlineInboxArrowDown} from 'react-icons/hi2'
-import {FcBusinessman} from 'react-icons/fc'
-// import { NavLink } from 'react-router-dom'
+import {useState} from 'react';
+import './navbar.css';
+// import {MdOutlineTravelExplore} from 'react-icons/md';
+import {RiPlantFill} from 'react-icons/ri';
+import {AiFillCloseCircle} from 'react-icons/ai';
+import {TbGridDots} from 'react-icons/tb';
+import {HiOutlineInboxArrowDown} from 'react-icons/hi2';
+import {FcBusinessman} from 'react-icons/fc';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const[active,setActive] = useState('navBar')
@@ -23,37 +23,51 @@ const Navbar = () => {
     <section className='navBarSection'>
       <header className='header flex'>
 
-        <div className='logoDiv'>
+      <div className='logoDiv'>
           <a href='/home' className='logo flex'>
           <RiPlantFill className='icon'/>
             <h1 className='logo-heading'> GROW TRADE NET</h1>
-            <h5 className='farmers-heading'>FARMERS</h5>
+            <h5 className='farmers-heading'>WHOLESALERS</h5>
           </a>
         </div>
 
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='/home' className='navLink'>Home</a>
+              {/*<a href='#link' className='navLink'>Home</a>*/}
+              <Link to="/home_w" className="navLink" >
+              Home
+              </Link>
             </li>
+
             <li className='navItem'>
-              {/* <CustomLink to='/information' className='navLink'>Information</CustomLink> */}
-              {/* <a href='/information' className='navLink'>Information</a> */}
+              {/*<a href='#link' className='navLink'>Listings</a>*/}
+              <Link to="/listings" className="navLink" >
+              Listings
+              </Link>
             </li>
+
             <li className='navItem'>
-              {/* <CustomLink to='/market' className='navLink'>Market</CustomLink> */}
-              <a href='/market' className='navLink'>Market</a>
+              {/*<a href='#link' className='navLink'>Market</a>*/}
+              <Link to="/market" className="navLink" >
+              Market
+              </Link>
             </li>
+
             <li className='navItem'>
-              <a href='/weather' className='navLink'>Weather</a>
+              {/*<a href='#link' className='navLink'>Contact</a>*/}
+              <Link to="/support_w" className="navLink" >
+              Support
+              </Link>
             </li>
-            <li className='navItem'>
-              <a href='/support_f' className='navLink'>Support</a>
-            </li>
-            {/* <li className='navItem'>
-              <a href='#link' className='navLink'>Dashboard</a>
-            </li>
-            */}
+
+            
+            
+
+
+           
+ 
+
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
@@ -83,8 +97,7 @@ const Navbar = () => {
 
       </header>
     </section>
-  )
-}
+  );
+};
 
-
-export default Navbar
+export default Navbar;
