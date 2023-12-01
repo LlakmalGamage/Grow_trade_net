@@ -1,6 +1,8 @@
 
 //test cases for this week bi weekly update
 
+//modications for nav bar and footer
+
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // import { AuthProvider } from '../src/Context/AuthContex'
