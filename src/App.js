@@ -90,7 +90,6 @@ function App() {
           <Route path='/support_e' element={<ExportersSupportPage/>}/>
 
         {/* Dashboard Page */} 
-        
           <Route path='/dashboard' element={<DashBoardPage/>}/>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/add" element={<Add/>} />
@@ -109,16 +108,7 @@ function App() {
         {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
         {/* Wholesaler Page  */}
         <Route path='/whole' element={<WholesalerPage/>}/>
-
-          
-          
-          
-
-        
-      </Routes>
-
-
-    
+      </Routes>    
     </>
   );
 }
