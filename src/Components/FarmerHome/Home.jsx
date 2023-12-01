@@ -30,7 +30,7 @@ const Home = () => {
             
           </span>
           <h1 data-aos='fade-scale-up' className='homeTitle'>
-            WELCOME TO FARMERS
+            HELLO FARMER&apos;S
           </h1>
         </div>
   <br/>
