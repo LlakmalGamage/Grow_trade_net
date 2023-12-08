@@ -1,10 +1,3 @@
-
-//test cases for this week bi weekly update
-
-//modications for nav bar and footer
-
-//fertilizer seller store code
-
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // import { AuthProvider } from '../src/Context/AuthContex'
@@ -94,6 +87,7 @@ function App() {
           <Route path='/support_e' element={<ExportersSupportPage/>}/>
 
         {/* Dashboard Page */} 
+        
           <Route path='/dashboard' element={<DashBoardPage/>}/>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/add" element={<Add/>} />
@@ -112,7 +106,13 @@ function App() {
         {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
         {/* Wholesaler Page  */}
         <Route path='/whole' element={<WholesalerPage/>}/>
-      </Routes>    
+
+          
+          
+          
+
+        
+      </Routes>
     </>
   );
 }

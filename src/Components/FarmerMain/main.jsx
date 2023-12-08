@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 const Main = () => {
   return(
     <div className='main'>
-      <h2 data-aos='fade-right'>Agriculture Support Hub</h2>
+      <h2 data-aos='fade-right'>AGRICULTURE SUPPORT HUB</h2>
       <p data-aos='fade-right'>GROW TRADE NET</p>
       <div className='first-des'>
         <div className='image'>
