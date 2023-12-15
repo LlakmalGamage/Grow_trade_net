@@ -16,13 +16,11 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+
 SECRET_KEY = 'django-insecure-t6im*-4-5zyrsz-#k=4=1%a+c*2c!i!p+(w9r6f#gv2wo)*^eo'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -37,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api.apps.ApiConfig',
     'rest_framework'
 ]
 
