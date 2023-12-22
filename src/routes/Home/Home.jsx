@@ -36,11 +36,22 @@ const Home = () => {
         <img src={img39} alt="Banner Image" />
         <div className="social-icons">
         {/* <img alt='Card Image' src={img2}/> */}
-          <a href="https://facebook.com" target="_blank"><img src={img40} /></a>
-          <a href="https://instagram.com" target="_blank"><img src={img41}/></a>
-          <a href="https://twitter.com" target="_blank"><img src={img42}/></a>
-          <a href="https://youtube.com" target="_blank"><img src={img43}/></a>
-          <a href="https://linkedin.com" target="_blank"><img src={img44}/></a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <img src={img40} alt="LinkedIn"/>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <img src={img41} alt="Instagram"/>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">
+        <img src={img42} alt="Twitter"/>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noreferrer">
+          <img src={img43} alt="YouTube"/>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <img src={img44} alt="LinkedIn"/>
+        </a>
+
         </div>
       </div>  
       <div className= "features-container">
@@ -141,7 +152,7 @@ const Home = () => {
         <div className="approach-card">
           <h5 className="approach-title">Our Approach</h5> 
           <p>Grow Trade Net is an e-marketplace to connect farmers, fertilizers & importers seamless access to millions of retailers & wholesalers. </p> 
-          <p>We have built a complete digital platform for farmers,fertilizers , importers & wholesalers; a trade marketplace to to solve all stakeholders isuues, without having to worry about anything but "Price". We take care of logistics, quality inspections, secure payments, returns, grievance redressals & extension of credit. We are introducing technology to improve food traceability and sustainability, and insurance coverage for all the major risks in the agri-business.</p>
+          <p>We have built a complete digital platform for farmers,fertilizers , importers & wholesalers; a trade marketplace to to solve all stakeholders isuues, without having to worry about anything but Price. We take care of logistics, quality inspections, secure payments, returns, grievance redressals & extension of credit. We are introducing technology to improve food traceability and sustainability, and insurance coverage for all the major risks in the agri-business.</p>
         </div>
         <div className= "approach-image-card">
           <img src={img37}/>

@@ -8,15 +8,20 @@ import {HiOutlineInboxArrowDown} from 'react-icons/hi2'
 import {FcBusinessman} from 'react-icons/fc'
 
 const Navbar = () => {
-  const[active,setActive] = useState('navBar')
+  const[active,setActive] = useState('navBar');
+  const [dropdownVisible, setDropdownVisible] = useState(false);
   // Function to toggle navBar
   const showNav = ()=>{
     setActive('navBar activeNavbar')
   }
   // Function to remove navBar
   const removeNavbar = ()=>{
-    setActive('navBar')
+    setActive('navBar');
+    setDropdownVisible(false);
   }
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
 
   return (
     <section className='navBarSection'>
@@ -46,9 +51,21 @@ const Navbar = () => {
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
 
-            <button className='btn'>
-            <a href="#link"><FcBusinessman className='icon'/></a>
-            </button> 
+            <button className="btn" onClick={toggleDropdown}>
+                <FcBusinessman className="icon" />
+              </button>
+              {dropdownVisible && (
+                <div className="dropdownMenu">
+                  <ul>
+                    <li>
+                      <a href="/profile">Profile</a>
+                    </li>
+                    <li>
+                      <a href="/logout">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              )}
 
             {/* <li className='navItem'>
               <a href='#' className='navLink'>Login</a>

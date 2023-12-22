@@ -9,15 +9,20 @@ import {FcBusinessman} from 'react-icons/fc'
 // import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-  const[active,setActive] = useState('navBar')
+  const[active,setActive] = useState('navBar');
+  const [dropdownVisible, setDropdownVisible] = useState(false);
   // Function to toggle navBar
   const showNav = ()=>{
     setActive('navBar activeNavbar')
   }
   // Function to remove navBar
   const removeNavbar = ()=>{
-    setActive('navBar')
+    setActive('navBar');
+    setDropdownVisible(false);
   }
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
 
   return (
     <section className='navBarSection'>
@@ -58,17 +63,23 @@ const Navbar = () => {
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
 
-            <button className='btn'>
-            <a href="#link"><FcBusinessman className='icon'/></a>
-            </button> 
-
-            {/* <li className='navItem'>
-              <a href='#' className='navLink'>Login</a>
-            </li> 
-            <li className='navItem'>
-              <a href='#' className='navLink'>Sign Up</a>
-            </li>  */}
-            
+            {/* profile photo */}
+              <button className="btn" onClick={toggleDropdown}>
+                <FcBusinessman className="icon" />
+              </button>
+              {dropdownVisible && (
+                <div className="dropdownMenu">
+                  <ul>
+                    <li>
+                      <a href="/profile">Profile</a>
+                    </li>
+                    <li>
+                      <a href="/logout">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              )}
+              
           </ul>
 
           <div onClick={removeNavbar} className="closeNavbar">
