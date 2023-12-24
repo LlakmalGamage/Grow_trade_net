@@ -30,7 +30,7 @@ const Navbar = () => {
       <header className='header flex'>
 
       <div className='logoDiv'>
-          <a href='/home' className='logo flex'>
+          <a href='/farmers/home' className='logo flex'>
           <RiPlantFill className='icon'/>
             <h1 className='logo-heading'> GROW TRADE NET</h1>
             <h5 className='farmers-heading'>FARMERS</h5>
@@ -40,19 +40,19 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='/home' className='navLink'>Home</a>
+              <a href='/farmers/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
               {/* <a href='/information' className='navLink'>Information</a> */}
             </li>
             <li className='navItem'>
-              <a href='/market' className='navLink'>Market</a>
+              <a href='/farmers/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
-              <a href='/weather' className='navLink'>Weather</a>
+              <a href='/farmers/weather' className='navLink'>Weather</a>
             </li>
             <li className='navItem'>
-              <a href='support' className='navLink'>Support</a>
+              <a href='/farmers/support' className='navLink'>Support</a>
             </li>
   
             <button className='btn'>

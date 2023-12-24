@@ -10,6 +10,19 @@ body,
   font-family: "Source Sans Pro", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
 .app {
   display: flex;
   position: relative;

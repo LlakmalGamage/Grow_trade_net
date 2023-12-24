@@ -28,7 +28,7 @@ const Navbar = () => {
       <header className='header flex'>
 
       <div className='logoDiv'>
-          <a href='/home' className='logo flex'>
+          <a href='/exporters/homeex' className='logo flex'>
           <RiPlantFill className='icon'/>
             <h1 className='logo-heading'> GROW TRADE NET</h1>
             <h5 className='exporters-heading'>EXPORTERS</h5>
@@ -38,13 +38,13 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='/homeex' className='navLink'>Home</a>
+              <a href='/exporters/homeex' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='/mylist' className='navLink'>My Listing</a>
+              <a href='/exporters/mylist' className='navLink'>My Listing</a>
             </li>
             <li className='navItem'>
-              <a href='/support_e' className='navLink'>Support</a>
+              <a href='/exporters/support_e' className='navLink'>Support</a>
             </li>
   
             <button className='btn'>

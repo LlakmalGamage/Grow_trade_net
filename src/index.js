@@ -15,9 +15,6 @@ root.render(
   </React.StrictMode>
   </StateContextProvider>
 );
-
-// root.render(
-//   <React.StrictMode> {/* Wrap your entire application with <React.StrictMode> */}
-//         <App />
-//   </React.StrictMode>
+// root.render(   
+//         <App />        
 // );
