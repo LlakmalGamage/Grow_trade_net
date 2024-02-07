@@ -18,6 +18,8 @@ import DashBoardPage from './Pages/AdminDashboard/dashboard'
 import WholesalerPage from './Pages/WholesalerPage/wholesaler'
 
 
+import FertilizerHome from './Pages/Fertilizer_Seller/Home/Home';
+
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import VerifyEmail from './Components/VerifyEmail';
@@ -82,7 +84,12 @@ function App() {
         {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
         {/* Wholesaler Page  */}
         <Route path='/whole' element={<WholesalerPage/>}/>
-
+        
+        {/* Fertilizer */}
+        <Route path='/fertilizer' element={<FertilizerHome />} />
+        <Route path='/fertilizer/home' element={<FertilizerHome />} />
+        
+        
 
         {/* <ToastContainer /> */}
         <Route path='/signup' element={<Signup/>}/>
