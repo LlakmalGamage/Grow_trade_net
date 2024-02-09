@@ -1,26 +1,88 @@
-/* navbar.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: url("../../../public/images/farmer.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  /* z-index: -1; */
+  width: 100%;
+  height: 100vh;
+  /* padding-top: 20%; */
+  /* padding-right: 5px; */
+  color: #fff;
+}
 
-/* Define styles for the navList and navItem elements */
-.navLists {
-    list-style: none;
-    padding: 0;
+.header-text {
+  font-size: 60px; 
+  position: "relative";
+  top: "50px";
+  left: "20px";
+}
+
+
+.hero #heading h3 {
+  color: #fff;
+}
+.hero #heading {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .margin {
+    height: 40vh;
   }
-  
-  .navItem {
-    margin: 0;
-    padding: 0;
+  .hero {
+    background-position: right;
+    padding-top: 50%;
+    height: 80vh;
   }
-  
-  /* Define styles for the navLink (the anchor tags) */
-  .navLink {
-    text-decoration: none;
-    color: #333;
-    padding: 5px 10px;
-    display: block;
+  .hero .row {
+    width: 100%;
   }
-  
-  /* Define styles for hover effects or any other styles you need */
-  .navLink:hover {
-    background-color: #f0f0f0;
-  }
-  
+}
+
+
+
+buttonx {
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #000000;
+  font-weight: 600;
+  border: none;
+  margin: 20px 10px 0 0;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+buttonx i {
+  margin-left: 2px;
+}
+buttonx:hover {
+  box-shadow: none;
+}
+
+.back {
+  background-image: url("../../../public/images/farmer.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}
+
