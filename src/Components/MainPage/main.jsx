@@ -32,10 +32,18 @@ const Hero = () => {
                 WHOLESALERS <i className='fa fa-long-arrow-alt-right'></i>
                 </buttonx>
               </a>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
               <a href="/signup">
-                <buttonx>
+                <buttonxx>
                   REGISTER NOW <i className='fa fa-long-arrow-alt-right'></i>
-                </buttonx>
+                </buttonxx>
+              </a>
+              <a href="/login">
+                <buttonxx>
+                  LOGIN <i className='fa fa-long-arrow-alt-right'></i>
+                </buttonxx>
               </a>
             </div>
       </section>
