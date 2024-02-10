@@ -3,14 +3,15 @@ import { Formik } from 'formik';
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import '../../App.css';
-
+import { useNavigate } from 'react-router-dom';
 
 const Listing = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
-
+  const navigate = useNavigate();
   const handleListingSubmit = (values) => {
     // Include selected image in form submission
     console.log({ ...values});
+    navigate('/farmers/prediction_output');
   };
 
   return (
