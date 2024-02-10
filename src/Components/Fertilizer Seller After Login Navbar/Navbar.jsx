@@ -29,7 +29,7 @@ const Navbar = () => {
       <header className='header flex'>
 
         <div className='logoDiv'>
-          <a href='/fer_seller/home' className='logo flex'>
+          <a href='/fertilizer/home' className='logo flex'>
           <RiPlantFill className='icon'/>
             <h1 className='logo-heading'> GROW TRADE NET</h1>
             <h5 className='fer_seller-heading'>FertilizerSeller</h5>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='/fer_seller/home' className='navLink'>Home</a>
+              <a href='/fertilizer/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
               {/* <CustomLink to='/information' className='navLink'>Information</CustomLink> */}
@@ -47,7 +47,7 @@ const Navbar = () => {
             </li>
             <li className='navItem'>
               {/* <CustomLink to='/market' className='navLink'>Market</CustomLink> */}
-              <a href='/fer_seller/market' className='navLink'>Market</a>
+              <a href='/farmers/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
               <a href='/fer_seller/listing' className='navLink'>Listing</a>

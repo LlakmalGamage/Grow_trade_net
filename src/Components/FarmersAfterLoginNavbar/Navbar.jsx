@@ -55,10 +55,9 @@ const Navbar = () => {
             <li className='navItem'>
               <a href='/farmers/support_f' className='navLink'>Support</a>
             </li>
-            {/* <li className='navItem'>
-              <a href='#link' className='navLink'>Dashboard</a>
+            <li className='navItem'>
+              <a href='/crop_recommandation' className='navLink'>Crop Recommandation</a>
             </li>
-            */}
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 
