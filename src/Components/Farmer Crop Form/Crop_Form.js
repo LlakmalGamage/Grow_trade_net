@@ -4,14 +4,23 @@ import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import '../../App.css';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 const Listing = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const navigate = useNavigate();
-  const handleListingSubmit = (values) => {
-    // Include selected image in form submission
-    console.log({ ...values});
-    navigate('/farmers/prediction_output');
+  const handleListingSubmit = async (values) => {
+    try {
+      // Make an HTTP POST request to your backend API endpoint
+      const response = await axios.post('http://127.0.0.1:8000/predict/', values);
+      // If the request is successful, log the response
+      console.log(response.data);
+      // Navigate to the prediction output page
+      navigate('/farmers/prediction_output');
+    } catch (error) {
+      // Handle any errors that occur during the request
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (
