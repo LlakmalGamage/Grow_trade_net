@@ -1,3 +1,4 @@
+
 [
     {
       "name": "New Exporter Help",
@@ -5,15 +6,11 @@
       "image": "./exporter7.jpg"
     },
     {
-      "name": "Sell Your Products Online",
-      "detail": "Digital platform that empowers businesses and individuals to effortlessly showcase and sell their products on the internet",
-      "image": "./exporter4.jpg"
+      "name": "currency exchange rate",
+      "detail": " Stay updated with the latest currency exchange rates to make informed decisions about international transactions.",
+      "image": "./currencyExchangeRate.jpg"
     },
-    {
-      "name": "Featured Products",
-      "detail": "Explore these featured products to support your agricultural export endeavors and enhance your farming operations.",
-      "image": "./exporter6.jpg"
-    },
+    
     {
       "name": "Market Insight",
       "detail": "Market insight is an ongoing process that requires continuous monitoring and adaptation to stay competitive and capitalize on opportunities.",
@@ -24,4 +21,5 @@
       "detail": "Stay ahead in the export game with the latest updates on international trade agreements, tariffs, and market trends.",
       "image": "./exporter1.jpg"
     }
-  ]
+  
+]
