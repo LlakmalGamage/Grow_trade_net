@@ -130,7 +130,7 @@ const Login = () => {
                 </form>
                  <h3 className='text-option'>Or</h3>
             <div className='githubContainer'>
-                <button onClick={handleLoginWithGithub}>Sign in with Github</button>
+                <button onClick={handleLoginWithGithub}></button>
             </div>
             <div className='googleContainer'>
                 <div id="signInDiv" className='gsignIn'></div>

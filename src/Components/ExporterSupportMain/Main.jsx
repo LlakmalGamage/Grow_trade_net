@@ -14,7 +14,7 @@ import img4 from '../../Components/Audio And Video/digital.jpg'
 
 
 import {MdOutlineEdgesensorHigh} from 'react-icons/md'
-import {FcOvertime} from 'react-icons/fc'
+// import {FcOvertime} from 'react-icons/fc'
 import {FcOnlineSupport} from 'react-icons/fc'
 
 // import Aos from 'aos'
