@@ -8,6 +8,8 @@ import SupportPage_F from '../src/Pages/SupportPage/Support'
 import FarmersHomePage from '../src/Pages/FarmerHomePage/Home'
 import WeatherPage from './Pages/WeatherPage/weather'
 
+import Crop_Prediction from './Pages/farmer_crop_prediction/prediction_form'
+
 import ExportersHomePage from './Pages/ExportersHomePage/Home'
 import ExportersMylistPage from './Pages/ExportersMyListPage/MyList'
 import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
@@ -57,6 +59,7 @@ function App() {
         <Route path='/farmers/market' element={<MarketPage />} />
         <Route path='/farmers/support_f' element={<SupportPage_F />} />
         <Route path='/farmers/weather' element={<WeatherPage />} />
+        <Route path='/farmers/crop_prediction' element={<Crop_Prediction />} />
 
 
         <Route path='/exporters/homeex' element={<ExportersHomePage/>}/>
