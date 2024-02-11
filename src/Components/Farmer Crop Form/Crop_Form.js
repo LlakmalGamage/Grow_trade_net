@@ -11,15 +11,39 @@ const Listing = () => {
   const navigate = useNavigate();
   const handleListingSubmit = async (values) => {
     try {
+
+      const adjustedValues = {
+        Nitrogen: Number(values.Nitrogen),
+        Phosphorus: Number(values.Phosphorus),
+        Potassium: Number(values.Potassium),
+        temperature: Number(values.temperature),
+        Humidity: Number(values.Humidity),
+        PH: Number(values.PH),
+        RainFall: Number(values.RainFall),
+      };
       // Make an HTTP POST request to your backend API endpoint
-      const response = await axios.post('http://127.0.0.1:8000/predict/', values);
-      // If the request is successful, log the response
-      console.log(response.data);
-      // Navigate to the prediction output page
-      navigate('/farmers/prediction_output');
+      const response = await axios.post('http://127.0.0.1:8000/predict/', adjustedValues);
+   
+      // Check if the request is successful
+      if (response.status === 200) {
+        // Optionally, inspect the response data to make decisions
+        console.log("Response data:", response.data);
+  
+        // If the response data meets certain conditions, navigate
+        // For example, you might only want to navigate if the response contains certain values
+        // This is just an example condition; adjust according to your actual response structure and requirements
+
+      } else {
+        // Handle non-200 response status codes
+        console.error("Request failed with status:", response.status);
+        // Optionally, provide feedback to the user
+      }
+
+      navigate('/farmers/prediction_output', { state: { prediction: response.data.prediction } });
     } catch (error) {
       // Handle any errors that occur during the request
-      console.error('Error submitting form:', error);
+      console.error("Error submitting form:", error);
+      // Optionally, provide feedback to the user
     }
   };
 
@@ -54,7 +78,7 @@ const Listing = () => {
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Nitrogen Content in soil"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -67,7 +91,7 @@ const Listing = () => {
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Phosphorus Content in soil"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -80,7 +104,7 @@ const Listing = () => {
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Potassium Content in soil"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -93,20 +117,20 @@ const Listing = () => {
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Avarage Temperature in your area"
                 onBlur={handleBlur}
                 onChange={handleChange}
-                value={values.Temperature}
-                name="Temperature"
-                error={!!touched.Temperature && !!errors.Temperature}
-                helperText={touched.Temperature && errors.Temperature}
+                value={values.temperature}
+                name="temperature"
+                error={!!touched.temperature && !!errors.temperature}
+                helperText={touched.temperature && errors.temperature}
                 sx={{ gridColumn: "span 4" }}
               />
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Avarage Humidity in your area"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -120,7 +144,7 @@ const Listing = () => {
               <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="PH Value in the soil"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -133,7 +157,7 @@ const Listing = () => {
                 <TextField
                 fullWidth
                 variant="filled"
-                type="text"
+                type="number"
                 label="Anual RainFall in your Area:"
                 onBlur={handleBlur}
                 onChange={handleChange}
@@ -167,7 +191,7 @@ const checkoutSchema = yup.object().shape({
     Nitrogen: yup.number().positive().required("required"),
     Phosphorus: yup.number().positive().required("required"),
     Potassium: yup.number().positive().required("required"),
-    Temperature: yup
+    temperature: yup
   .number().positive()
     .required("required"),
     Humidity: yup.number().positive().required("required"),
@@ -180,7 +204,7 @@ const initialValues = {
     Nitrogen: "",
     Phosphorus: "",
     Potassium: "",
-    Temperature: "",
+    temperature: "",
     Humidity: "",
     PH: "",
     RainFall: ""
