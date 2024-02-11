@@ -1,5 +1,5 @@
 import './main.css'
-import video1 from '../../Components/Audio And Video/v1.mp4'
+import video1 from '../../Components/Audio And Video/currencyExchange.mp4'
 import video2 from '../../Components/Audio And Video/v2.mp4'
 import video3 from '../../Components/Audio And Video/v3.mp4'
 import video4 from '../../Components/Audio And Video/v4.mp4'
