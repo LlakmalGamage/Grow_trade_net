@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#f4f4f4;
+  }
+  /* .filterHeader{
+    margin-bottom: 10px;
+  } */
+  .filterButton{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .addButton{
+    margin: 10px;
+    height: 40px;
+    background-color:'#96A193';
+    border-radius: 5px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 columns */
+    gap: 10px; /* Gap between cards */
+    justify-content: center; /* Center the grid horizontally */
+    padding-left: 55px;
+  }
+   
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

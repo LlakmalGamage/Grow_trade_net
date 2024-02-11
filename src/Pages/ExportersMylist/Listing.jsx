@@ -4,6 +4,7 @@ import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import '../../App.css';
 import Navbar from "../../Components/ExportersAfterLoginNavbar/Navbar";
+import Main from "../../Components/ListPage/list"
 
 const Listing = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
@@ -131,6 +132,9 @@ const Listing = () => {
       </Formik>
       </div> 
     </Box>
+    <Main/>
+    
+
     </>
   );
 };
