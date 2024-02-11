@@ -25,6 +25,8 @@ import WholesalerSupportPage from './Pages/WholesalerSupport/Support'
 
 import FertilizerHome from './Pages/Fertilizer_Seller/Home/Home';
 import FertilizerListing from './Pages/Fertilizer_Seller/listings/Listing'
+import FertilizerMarket from './Pages/FertilizerSellerMarket/Market'
+import FertilizerSupport from './Pages/FertilizerSellerSupport/Support'
 
 import Signup from './Components/Signup';
 import Login from './Components/Login';
@@ -101,7 +103,9 @@ function App() {
         {/* Fertilizer */}
         <Route path='/fertilizer' element={<FertilizerHome />} />
         <Route path='/fertilizer/home' element={<FertilizerHome />} />
-        <Route path='/fer_seller/listing' element={<FertilizerListing />} />
+        <Route path='/fertilizer/listing' element={<FertilizerListing />} />
+        <Route path='/fertilizer/market' element={<FertilizerMarket />} />
+        <Route path='/fertilizer/support' element={<FertilizerSupport/>} />
         
         
 
