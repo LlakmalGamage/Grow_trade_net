@@ -7,7 +7,10 @@ function RecommendationComponent() {
   return (
     <div>
       <h2>Based on your input data, we are recommending you to cultivate:</h2>
-      {prediction && <h3>{prediction}</h3>} 
+        <div className='prediction'>
+          <br/>
+          {prediction &&  <h2>{prediction}</h2>} 
+        </div>
     </div>
   );
 }

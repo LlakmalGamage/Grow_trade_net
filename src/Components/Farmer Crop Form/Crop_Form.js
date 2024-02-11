@@ -22,7 +22,7 @@ const Listing = () => {
         RainFall: Number(values.RainFall),
       };
       // Make an HTTP POST request to your backend API endpoint
-      const response = await axios.post('http://127.0.0.1:8000/predict/', adjustedValues);
+      const response = await axios.post('http://127.0.0.1:9000/predict/', adjustedValues);
    
       // Check if the request is successful
       if (response.status === 200) {
