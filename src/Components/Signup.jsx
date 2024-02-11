@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import axios from "axios"
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import "./MainPage/main.css";
 
 const Signup = () => {
     const navigate=useNavigate()
@@ -116,7 +117,7 @@ const Signup = () => {
                 </form>
                  <h3 className='text-option'>Or</h3>
             <div className='githubContainer'>
-                <button>Sign up with Github</button>
+                <button></button>
             </div>
             <div className='googleContainer'>
                 <div id="signInDiv" className='gsignIn'></div>
