@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className={active}>
           <ul className='navLists flex'>
             <li className='navItem'>
-              <a href='/farmers/home' className='navLink'>Home</a>
+              <a href='/whole/home' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
               {/* <CustomLink to='/information' className='navLink'>Information</CustomLink> */}
@@ -50,7 +50,7 @@ const Navbar = () => {
               <a href='/farmers/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
-              <a href='/WholesalerListings' className='navLink'>Listings</a>
+              <a href='/whole/list' className='navLink'>Listings</a>
             </li>
             <li className='navItem'>
               <a href='/farmers/support_f' className='navLink'>Support</a>
