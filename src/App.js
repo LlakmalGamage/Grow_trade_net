@@ -90,6 +90,7 @@ function App() {
         {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
         {/* Wholesaler Page  */}
         <Route path='/whole' element={<WholesalerPage/>}/>
+        <Route path='/WholesalerListings' element={<WholesalerListings/>}/>
         
         {/* Fertilizer */}
         <Route path='/fertilizer' element={<FertilizerHome />} />
