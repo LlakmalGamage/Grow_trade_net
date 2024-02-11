@@ -27,7 +27,7 @@ const Hero = () => {
                   FERTILIZER-SELLERS <i className='fa fa-long-arrow-alt-right'></i>
                 </buttonx>
               </a>
-              <a href="/whole">
+              <a href="/whole/home">
                 <buttonx>
                 WHOLESALERS <i className='fa fa-long-arrow-alt-right'></i>
                 </buttonx>

@@ -42,12 +42,15 @@ const Navbar = () => {
               <a href='/exporters/homeex' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
+              <a href='/exporters/market' className='navLink'>Market</a>
+            </li>
+            <li className='navItem'>
               <a href='/exporters/mylist' className='navLink'>My Listing</a>
             </li>
             <li className='navItem'>
               <a href='/exporters/support_e' className='navLink'>Support</a>
             </li>
-
+            
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>
             </button> 

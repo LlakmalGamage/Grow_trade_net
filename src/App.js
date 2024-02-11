@@ -18,8 +18,10 @@ import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
 import MainPage from './Pages/MainPage/main'
 import DashBoardPage from './Pages/AdminDashboard/dashboard'
 // import WholesalerPage from './Pages/WholesalerPage/wholesaler'
-import WholesalerPage from './Pages/WholesalerPage/wholesaler'
-
+import WholesalerHomePage from './Pages/WholesalerHomePage/Home'
+import WholesalerListings from './Pages/WholesalerListings/Listing'
+import WholesalerMarketPage from './Pages/WholesalerMarket/Market'
+import WholesalerSupportPage from './Pages/WholesalerSupport/Support'
 
 import FertilizerHome from './Pages/Fertilizer_Seller/Home/Home';
 import FertilizerListing from './Pages/Fertilizer_Seller/listings/Listing'
@@ -68,7 +70,8 @@ function App() {
         {/* Exporter Page */}
           <Route path='/' element={<ExportersHomePage/>}/>
           <Route path='/exporters/homeex' element={<ExportersHomePage/>}/>
-          <Route path='/exporters/mylist' element={<ExportersMylistPage/>}/>
+          <Route path='/exporters/mylist' element={<WholesalerListings/>}/>
+          <Route path='/exporters/market' element={<ExportersMylistPage/>}/>
           <Route path='/exporters/supportex' element={<ExportersSupportPage/>}/>
           <Route path='/exporters/support_e' element={<ExportersSupportPage/>}/>
 
@@ -87,9 +90,13 @@ function App() {
                 <Route path="/geography" element={<Geography />} />
 
         {/* Wholesaler Page */} 
-        {/* <Route path='/whole' element={<WholesalerPage/>}/> */}
+        <Route path='/whole/home' element={<WholesalerHomePage/>}/>
         {/* Wholesaler Page  */}
-        <Route path='/whole' element={<WholesalerPage/>}/>
+        <Route path='/' element={<WholesalerHomePage/>} />
+        <Route path='/whole/home' element={<WholesalerHomePage/>}/>
+        <Route path='/whole/market' element={<WholesalerMarketPage/>}/>
+        <Route path='/whole/list' element={<WholesalerListings/>}/>
+        <Route path='/whole/support' element={<WholesalerSupportPage/>}/>
         
         {/* Fertilizer */}
         <Route path='/fertilizer' element={<FertilizerHome />} />
