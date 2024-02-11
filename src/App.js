@@ -20,6 +20,8 @@ import DashBoardPage from './Pages/AdminDashboard/dashboard'
 // import WholesalerPage from './Pages/WholesalerPage/wholesaler'
 import WholesalerHomePage from './Pages/WholesalerHomePage/Home'
 import WholesalerListings from './Pages/WholesalerListings/Listing'
+import WholesalerMarketPage from './Pages/WholesalerMarket/Market'
+import WholesalerSupportPage from './Pages/WholesalerSupport/Support'
 
 import FertilizerHome from './Pages/Fertilizer_Seller/Home/Home';
 import FertilizerListing from './Pages/Fertilizer_Seller/listings/Listing'
@@ -92,7 +94,9 @@ function App() {
         {/* Wholesaler Page  */}
         <Route path='/' element={<WholesalerHomePage/>} />
         <Route path='/whole/home' element={<WholesalerHomePage/>}/>
+        <Route path='/whole/market' element={<WholesalerMarketPage/>}/>
         <Route path='/whole/list' element={<WholesalerListings/>}/>
+        <Route path='/whole/support' element={<WholesalerSupportPage/>}/>
         
         {/* Fertilizer */}
         <Route path='/fertilizer' element={<FertilizerHome />} />
