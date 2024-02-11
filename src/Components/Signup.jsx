@@ -32,7 +32,7 @@ const Signup = () => {
         localStorage.setItem('token', JSON.stringify(server_res.data.access_token))
         localStorage.setItem('refresh_token', JSON.stringify(server_res.data.refresh_token))
         localStorage.setItem('user', JSON.stringify(user))
-        navigate('/dashboard')
+        navigate('/')
         toast.success('login successful')
         }
     }

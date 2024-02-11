@@ -14,6 +14,8 @@ import Prediction_Output from "./Pages/farmer_crop_prediction/output"
 import ExportersHomePage from './Pages/ExportersHomePage/Home'
 import ExportersMylistPage from './Pages/ExportersMyListPage/MyList'
 import ExportersSupportPage from './Pages/ExportersSupportPage/Support'
+import ExporterCurrency from './Pages/ExportersCurrency/Currency';
+import ExporterMylist from './Pages/ExportersMylist/Listing'
 
 import MainPage from './Pages/MainPage/main'
 import DashBoardPage from './Pages/AdminDashboard/dashboard'
@@ -72,10 +74,11 @@ function App() {
         {/* Exporter Page */}
           <Route path='/' element={<ExportersHomePage/>}/>
           <Route path='/exporters/homeex' element={<ExportersHomePage/>}/>
-          <Route path='/exporters/mylist' element={<WholesalerListings/>}/>
+          <Route path='/exporters/mylist' element={<ExporterMylist/>}/>
           <Route path='/exporters/market' element={<ExportersMylistPage/>}/>
           <Route path='/exporters/supportex' element={<ExportersSupportPage/>}/>
           <Route path='/exporters/support_e' element={<ExportersSupportPage/>}/>
+          <Route path='/exporters/currencyrate' element={<ExporterCurrency/>}/>
 
         {/* Dashboard Page */} 
           <Route path='/dashboard' element={<DashBoardPage/>}/>
@@ -114,7 +117,7 @@ function App() {
         {/*Sign Page*/}
         <Route path='/' element={<Signup/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/dashboard' element={<MainPage/>}/>
+        {/* <Route path='/main' element={<MainPage/>}/> */}
         <Route path='/otp/verify' element={<VerifyEmail/>}/>
         <Route path='/forget-password' element={<PasswordResetRequest/>}/>
         <Route path='/password-reset-confirm/:uid/:token' element={<ResetPassword/>}/>

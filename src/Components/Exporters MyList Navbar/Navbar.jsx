@@ -42,6 +42,9 @@ const Navbar = () => {
               <a href='/exporters/homeex' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
+              <a href='/exporters/currencyrate' className='navLink'>Currency Exchange</a>
+            </li>
+            <li className='navItem'>
               <a href='/exporters/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>

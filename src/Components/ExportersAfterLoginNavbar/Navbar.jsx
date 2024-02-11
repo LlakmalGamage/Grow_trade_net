@@ -41,6 +41,9 @@ const Navbar = () => {
               <a href='/exporters/homeex' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
+              <a href='/exporters/currencyrate' className='navLink'>Currency Exchange</a>
+            </li>
+            <li className='navItem'>
               <a href='/exporters/market' className='navLink'>Market</a>
             </li>
             <li className='navItem'>
@@ -49,6 +52,7 @@ const Navbar = () => {
             <li className='navItem'>
               <a href='/exporters/support_e' className='navLink'>Support</a>
             </li>
+            
   
             <button className='btn'>
             <a href="#link"><HiOutlineInboxArrowDown className='icon'/></a>

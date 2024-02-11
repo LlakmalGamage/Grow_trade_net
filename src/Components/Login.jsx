@@ -90,7 +90,7 @@ const Login = () => {
                      localStorage.setItem('token', JSON.stringify(response.access_token))
                      localStorage.setItem('refresh_token', JSON.stringify(response.refresh_token))
                      localStorage.setItem('user', JSON.stringify(user))
-                      await navigate('/dashboard')
+                     navigate('/')
                      toast.success('login successful')
                  }else{
                     toast.error('something went wrong')

@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import logo from '../src/currencylogo.png'
-import currency from '../src/currency.png'
-import './App.css'
+import { useEffect, useState } from 'react'
+import logo from '../CurrencyExchange/currencylogo.png'
+import currency from '../CurrencyExchange/currency.png'
+import './Exrate.css'
 import  axios from "axios"
 
-const App = () => {
+const Exrate = () => {
 
   const [amount,setAmount]=useState(0)
   const[from,setFrom]=useState("usd")
@@ -38,13 +38,13 @@ const App = () => {
   }
 
   return (
-    <div className='App'>
+    <div className='Appexrate'>
       <div className='convertor'>
         <div className="head">
-          <h4><img src={logo} alt="" className='logo'/>Currency convertor</h4>
+          <h4><img src={logo} alt="" className='logoexrate'/>Currency convertor</h4>
         </div>
 
-        <div className="container">
+        <div className="containerexrate">
           <div className='left'>
             <h4>Amount</h4>
             <input type="text" placeholder='Enter Amount'
@@ -53,25 +53,27 @@ const App = () => {
           <div className='middle'>
             <h4>From</h4>
             <select onChange={(e) => setFrom(e.target.value)} value={from}>
-              {options.map(o => (
-                <option value={o}>{o}</option>
-
-               ) )}
+            {options.map(o => (
+              <option key={o} value={o}>
+                {o}
+              </option>
+            ))}
             </select>
           </div>
           <div className='right'>
             <h4>To</h4>
             <select onChange={(e) => setTo(e.target.value)} value={to}>
             {options.map(o => (
-                <option value={o}>{o}</option>
-
-               ) )}
+              <option key={o} value={o}>
+                {o}
+               </option>
+              ))}
             </select>
           </div>
           <div className='result'>
               <h5>Converted Amount</h5>
               <h5>{amount + " " + from + "=" + output + " " + to }</h5>
-              <button onClick={Convert}>Convert</button>
+              <buttonex onClick={Convert}>Convert</buttonex>
           </div>
         </div>
 
@@ -84,4 +86,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Exrate

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.App {
+.Appexrate {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -31,7 +31,7 @@
   margin-top: 150px; /* Added margin to push it down */
 }
 
-.logo {
+.logoexrate {
   width: 70px;
   height: 70px;
 }
@@ -43,7 +43,7 @@
 }
 
 
-.container {
+.containerexrate {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -69,14 +69,9 @@ select {
   border-radius: 5px;
 }
 
-.result {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-button {
+
+buttonex {
   width: 100%;
   height: 40px;
   font-weight: bold;
