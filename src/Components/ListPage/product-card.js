@@ -26,8 +26,8 @@ function ProductCard({ title, imageUrl, quantity, price, status }) {
                 </Dropdown.Menu>
             </Dropdown> */}
             <div class="w3-dropdown-hover dropdownHeader">
-                <button class="w3-button w3-black dropdownButton">Actions</button>
-                <div class="w3-dropdown-content w3-bar-block w3-border">
+                <button className="w3-button w3-black dropdownButton">Actions</button>
+                <div className="w3-dropdown-content w3-bar-block w3-border">
                     <a href="#" class="w3-bar-item w3-button">Edit</a>
                     <a href="#" class="w3-bar-item w3-button">Delete</a>
                 </div>
