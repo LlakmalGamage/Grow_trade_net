@@ -1,0 +1,28 @@
+/* src/pruduct-card.css */
+.dropdownHeader{
+  margin-bottom: 10px;
+}
+.dropdownButton{
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
