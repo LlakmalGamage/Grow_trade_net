@@ -23,7 +23,7 @@ const Topbar = () => {
 
   return (
     <><div className='logoDiv'>
-      <a href='#link' className='logo flex'>
+      <a href='/' className='logo flex'>
         <h1><RiPlantFill className='icon' /> GROW TRADE NET</h1>
       </a>
     </div>

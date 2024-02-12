@@ -180,7 +180,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              Active Adverticements
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
@@ -224,7 +224,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Active Adverticements
           </Typography>
           <Box
             display="flex"
@@ -238,9 +238,9 @@ const Dashboard = () => {
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              $48,352 revenue generated
+              
             </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
+            <Typography></Typography>
           </Box>
         </Box>
         <Box
