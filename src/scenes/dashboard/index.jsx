@@ -2,8 +2,8 @@ import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import Account_ID from "@mui/icons-material/AccountBox";
+import AccountBalance from "@mui/icons-material/AccountBalanceWallet";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../Components/Dashboard/Header";
@@ -56,11 +56,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Emails Sent"
+            subtitle="Current Accounts"
             progress="0.75"
             increase="+14%"
             icon={
-              <EmailIcon
+              <Account_ID
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -75,11 +75,11 @@ const Dashboard = () => {
         >
           <StatBox
             title="431,225"
-            subtitle="Sales Obtained"
+            subtitle="Adverticement posted"
             progress="0.50"
             increase="+21%"
             icon={
-              <PointOfSaleIcon
+              <AccountBalance
                 sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
               />
             }
@@ -259,23 +259,7 @@ const Dashboard = () => {
             <BarChart isDashboard={true} />
           </Box>
         </Box>
-        <Box
-          gridColumn="span 4"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-          padding="30px"
-        >
-          <Typography
-            variant="h5"
-            fontWeight="600"
-            sx={{ marginBottom: "15px" }}
-          >
-            Geography Based Traffic
-          </Typography>
-          <Box height="200px">
-            <GeographyChart isDashboard={true} />
-          </Box>
-        </Box>
+
       </Box>
     </Box>
   );
