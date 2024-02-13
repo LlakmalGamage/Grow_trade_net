@@ -13,7 +13,7 @@ const Form = () => {
 
   return (
     <Box m="20px">
-      <Header title="Delete User" subtitle="Delete User Profile" />
+      <Header title="Delete Advertisements" subtitle="Delete Addvertisements" />
 
       <Formik
         onSubmit={handleFormSubmit}
@@ -41,13 +41,13 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="number"
-                label="User ID"
+                label="Add ID"
                 onBlur={handleBlur}
                 onChange={handleChange}
-                value={values.UID}
-                name="UID"
-                error={!!touched.UID && !!errors.UID}
-                helperText={touched.UID && errors.UID}
+                value={values.AID}
+                name="AID"
+                error={!!touched.AID && !!errors.AID}
+                helperText={touched.AID && errors.AID}
                 sx={{ gridColumn: "span 2" }}
               />
               <TextField
@@ -79,7 +79,7 @@ const Form = () => {
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained" style={{ backgroundColor: 'red' }}>
-                Remove User
+                Remove Add
               </Button>
             </Box>
           </form>
@@ -92,13 +92,13 @@ const Form = () => {
 
 
 const checkoutSchema = yup.object().shape({
-  UID: yup.number().required("required"),
+  AID: yup.number().required("required"),
   R_ID: yup.number().required("required"),
   U_Type: yup.string().required("required"),
   
 });
 const initialValues = {
-  firstName: "",
+  AID: "",
   R_ID: "",
   U_Type: "",
 

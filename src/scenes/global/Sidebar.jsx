@@ -142,7 +142,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="User Varification"
+              title="Users"
               to="/user"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
@@ -164,7 +164,7 @@ const Sidebar = () => {
               Pages
             </Typography>
             <Item
-              title="Profile Form"
+              title="Profile Removal"
               to="/profile"
               icon={<PersonOutlinedIcon />}
               selected={selected}
@@ -178,8 +178,8 @@ const Sidebar = () => {
               setSelected={setSelected}   
             />
             <Item
-              title="Calendar"
-              to="/calendar"
+              title="Addvertisement Removal"
+              to="/add_var"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -217,13 +217,6 @@ const Sidebar = () => {
               title="Line Chart"
               to="/line"
               icon={<TimelineOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Geography Chart"
-              to="/geography"
-              icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />

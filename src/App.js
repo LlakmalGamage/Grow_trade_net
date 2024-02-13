@@ -47,8 +47,8 @@ import ProfileDashboard from "./scenes/profile";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
-import Geography from "./scenes/geography";
-import Calendar from "./scenes/calendar/calendar";
+import ADD from "./scenes/Adverticement";
+
 
 
 
@@ -91,8 +91,8 @@ function App() {
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/line" element={<Line />} />
                 <Route path="/faq" element={<FAQ />} />
-                <Route path="/calendar" element={<Calendar/>} />
-                <Route path="/geography" element={<Geography />} />
+                <Route path="/add_var" element={<ADD />} />
+                
 
         {/* Wholesaler Page */} 
         <Route path='/whole/home' element={<WholesalerHomePage/>}/>
