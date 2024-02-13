@@ -1,6 +1,7 @@
 import {useEffect} from 'react'
 import './home.css'
 import video from '../../Components/Audio And Video/cornfield.mp4'
+// import image from '../Audio And Video/seed2.jpg'
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {SiTripadvisor} from 'react-icons/si'
@@ -21,7 +22,7 @@ const Home = () => {
     <section className="home">
       <div className="overlay"></div>
       <video src={video} muted autoPlay loop type="cornfield/mp4"></video>
-      {/* <img src={image} alt="Description of the image" /> */}
+        {/* <img src={image} alt="Description of the image" /> */}
 
 
       <div className='homeContent container'>

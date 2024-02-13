@@ -40,6 +40,15 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.home img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .home .homeContent {
   width: 100%;

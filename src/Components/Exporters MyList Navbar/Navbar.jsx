@@ -42,7 +42,7 @@ const Navbar = () => {
               <a href='/exporters/homeex' className='navLink'>Home</a>
             </li>
             <li className='navItem'>
-              <a href='/exporters/currencyrate' className='navLink'>Currency Exchange</a>
+              <a href='/exporters/currencyrate' className='navLink'>Currency Converter</a>
             </li>
             <li className='navItem'>
               <a href='/exporters/market' className='navLink'>Market</a>
